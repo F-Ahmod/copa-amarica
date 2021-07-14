@@ -1,8 +1,9 @@
 body{
     font-family: 'Poppins', sans-serif;
+    
 }
 
-.headsing{
+.head-dsing{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     justify-content: space-between;
@@ -25,6 +26,10 @@ h1{
     font-size: 60px
     
 }
+.fortawsome:hover{
+    background-color: aqua;
+}
+
 /* first 3 player ------------------------------------
 ---------------------------------- */
 
@@ -131,6 +136,9 @@ h1{
     border-radius: 18px;
     margin-left: 20px;
 }
+.star i:hover{
+    background-color: aqua;
+}
 /* sponsor-------------------
 ------------------- */
 h2{
@@ -139,16 +147,29 @@ h2{
 .fa-reddit{
     font-size: 200px;
     margin-right: 20px;
+    
+}
+.fa-reddit:hover{
+    background-color: gray;
 }
 .fa-blogger {
     font-size: 200px;
 
 }
+.fa-blogger:hover{
+    background-color: gray;
+}
 .fa-pied-piper{
     font-size: 200px;
 }
+.fa-pied-piper:hover{
+    background-color: gray;
+}
 .fa-pied-piper-pp{
     font-size: 200px;
+}
+.fa-pied-piper-pp:hover{
+    background-color: gray
 }
 .logo-titel{
     text-align: ;
@@ -160,12 +181,15 @@ h2{
 ------------------------------
 -------------------- */
 
-
 @media only screen and (max-width:688px) {
+    
+       
+    
     .player123{
         display: grid;
         margin-left: 20px;
         padding-left: 150px;
+        
         
     }
     .player456{
@@ -184,5 +208,6 @@ h2{
         display: inline;
 
     }
+    
     
 }
