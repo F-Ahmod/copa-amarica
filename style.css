@@ -28,61 +28,6 @@ h1{
 /* first 3 player ------------------------------------
 ---------------------------------- */
 
-/* .players{
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    
-}
-.playerone-img img{
-    width: 330px;
-    height: 334px; 
-}
-
-.player1{
-    width: 330px;
-    height: 474px;
-    border: 3px solid red;
-    margin-bottom: 30px;
-}
-.player2{
-    width: 330px;
-    height: 474px;
-    border: 3px solid red;
-    margin-bottom: 30px;
-
-}
-.player3{
-    width: 330px;
-    height: 474px;
-    border: 3px solid red;
-    margin-bottom: 30px;
-
-}
- .player-info{
-    display: grid;
-    align-items: center;
-    justify-content: space-between;
-}
-
- .players{
-    
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-column-gap: 30px;
-
-}
-.player-img img{
-    width: 330px;
-    height: 334px;
-    
-}
-.player-1-info{
-   display: grid;
-   align-items: center;
-   justify-content:space-between;
-
-    
-} */
 
 
 .player123{
@@ -173,8 +118,71 @@ h1{
 
 
 }
+/* footer style  */
 
 .footer{
     display: grid;
     text-align: center;
+}
+.star i{
+    font-size: 40px;
+    border:1px solid royalblue;
+    background-color: wheat;
+    border-radius: 18px;
+    margin-left: 20px;
+}
+/* sponsor-------------------
+------------------- */
+h2{
+    font-size: 50px;
+}
+.fa-reddit{
+    font-size: 200px;
+    margin-right: 20px;
+}
+.fa-blogger {
+    font-size: 200px;
+
+}
+.fa-pied-piper{
+    font-size: 200px;
+}
+.fa-pied-piper-pp{
+    font-size: 200px;
+}
+.logo-titel{
+    text-align: ;
+    border: 1px solid skyblue;
+    background-color: wheat;
+}
+
+/* meadia qure style ------------------------
+------------------------------
+-------------------- */
+
+
+@media only screen and (max-width:688px) {
+    .player123{
+        display: grid;
+        margin-left: 20px;
+        padding-left: 150px;
+        
+    }
+    .player456{
+        display: grid;
+        margin-left: 20px;
+        padding-left: 150px;
+
+    }
+    .player789{
+        display: grid;
+        margin-left: 20px;
+        padding-left: 150px;
+
+    }
+    .footer{
+        display: inline;
+
+    }
+    
 }
